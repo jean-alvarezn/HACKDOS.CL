@@ -3792,6 +3792,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   text-decoration: none;
   transition: color 0.10s ease-in-out, background-color 0.10s ease-in-out, border-color 0.10s ease-in-out;
+  font-size: 19px;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -10759,11 +10760,17 @@ textarea.form-control-lg {
   }
 }
 
+@media (max-width: 500px) {
+  #imagenLogo{
+    width: 100%;
+  }
+}
+
 .footer {
   height: auto;
   background: #465EF3;
   color: #fff;
-  line-height: 30px;
+  line-height: 10px;
   padding: 0 20px;
 }
 
@@ -10788,4 +10795,61 @@ textarea.form-control-lg {
 
 .iconos-footer {
   margin-right: 6px;
+}
+
+
+.link-secciones {
+  color:#34B534;
+}
+
+.link-secciones:hover{
+  color:#227522;
+}
+
+.subtituloMaquina {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.negritaSubtitulo {
+  color: #E35407;
+}
+
+.controlFormulario {
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+.botonFormulario {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+hr{
+  width: 600px;
+}
+
+.metro {
+  width: 100%;
+}
+
+.contenedorTexto {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+}
+
+.contenedorTexto h4 {
+  line-height: 35px;
+}
+
+.asteriscoObligatorio {
+  color : #E22C2C;
 }

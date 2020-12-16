@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<title>HackDOS | Contacto</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="">
+		    	<img src="imagenes/imagen-brand.png" alt="" width="150" height="60">
+		    </a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link" href="index.html">Inicio</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="quienes-somos.html">Quiénes somos</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Servicios</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#"><b>Contacto</b></a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+
+<main>
+	<center>
+		<div class="formularioContacto">
+			<form action="" class="needs-validation">
+				<h1>Contacto</h1>
+				<hr>
+				<div class="mb-3">
+					<label for="exampleFormControlInput2" class="form-label">Nombre <b class="asteriscoObligatorio">*</b></label>
+					<input class="form-control controlFormulario" type="text" placeholder="Nombre" id="exampleFormControlInput2" aria-label="default input example" required>
+					<div class="invalid-feedback">
+	      				Tu nombre no puede estar en blanco
+	    			</div>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput2" class="form-label">Apellido <b class="asteriscoObligatorio">*</b></label>
+					<input class="form-control controlFormulario" type="text" placeholder="Apellido" id="exampleFormControlInput2" aria-label="default input example" required>
+					<div class="invalid-feedback">
+	      				Tu apellido no puede estar en blanco
+	    			</div>
+				</div>
+				<div class="mb-3">
+				  <label for="exampleFormControlInput1" class="form-label">Correo electrónico <b class="asteriscoObligatorio">*</b></label>
+				  <input type="email" class="form-control controlFormulario" id="exampleFormControlInput1" placeholder="correo@ejemplo.cl" required>
+				  <div class="invalid-feedback">
+	      				Tu correo no puede estar en blanco
+	    		  </div>
+				</div>
+				<div>
+					<label for="exampleFormControlInput2" class="form-label">Número de contacto <b class="asteriscoObligatorio">*</b></label>
+					<input class="form-control controlFormulario" type="text" placeholder="+569" id="exampleFormControlInput2" aria-label="default input example" required>
+					  <div class="invalid-feedback">
+	      				Tu número no puede estar en blanco
+	    		  </div>
+				</div>
+				<div>
+					<label for="select" class="form-label">¿Que estás buscando con nosotros? <b class="asteriscoObligatorio">*</b></label>
+					<select class="form-select controlFormulario" aria-label="Default select example" id="select" required>
+		  			<option selected>Selecciona motivo</option>
+		  			<option value="1">Servicio técnico</option>
+					<option value="2">Mantenimiento</option>
+					<option value="3">Instalacion</option>
+					</select>
+				 <div class="invalid-feedback">
+	      				Debes seleccionar un motivo
+	    		 </div>
+				</div>
+				<div>
+					<label for="exampleFormControlTextarea1" class="form-label">Dudas, comentarios, inquietudes, etc</label>
+	  				<textarea class="form-control controlFormulario" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary botonFormulario">Enviar</button>
+			</form>
+		</div>
+	</center>
+</main>
+
+
+<footer class="footer">
+		<center>
+			<br><p><h5>HackDOS LTDA &copy; 2020 | Antofagasta , Chile</h5></p>
+			<p><i class="fab fa-instagram iconos-footer"></i>@hackdosig</p>
+			<p><i class="fas fa-envelope iconos-footer"></i>contacto@hackdos.cl</p>
+			<p><i class="fas fa-phone-alt iconos-footer"></i>+56977276163</p><br>
+		</center>
+</footer>
+
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js"crossorigin="anonymous"></script>
+
+</body>
+	
+</html>

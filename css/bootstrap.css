@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'the_bold_fontbold';
+    src: url('../fuentes/theboldfont-webfont.woff2') format('woff2'),
+         url('../fuentes/theboldfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 @charset "UTF-8";
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
@@ -10758,11 +10768,27 @@ textarea.form-control-lg {
   .typewrite {
     font-size: 3.3rem;
   }
+  .contenedorQuienesSomos p {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 500px) {
   .contenedorMetro, .grillaMetro, .imagenGrilla{
     width: 100%;
+  }
+}
+
+@media(max-width: 500px) {
+  .iconosCol img{
+    width: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .col-sm .contenedorCirculos {
+     width: 250px;
+     height: 250px;
   }
 }
 
@@ -10862,7 +10888,38 @@ hr{
 
 .contenedorQuienesSomos {
   background: #2980b9;
-  height: 300px;
+  height: 250px;
   font-size: 80px;
+  font-family: the_bold_fontbold;
+}
 
+
+
+.contenedorIconos {
+  background: #2d3436;
+  width: 100%;
+  height: auto;
+}
+
+.contenedorCirculos {
+  height: 250px;
+  width: 250px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.contenedorCirculos img{
+ width: 100%;
+ height: auto;
+ border-radius: 50%;
+
+}
+
+.contenedorCirculos p {
+  color: #fff;
+  margin-top: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }

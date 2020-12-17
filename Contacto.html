@@ -71,22 +71,24 @@
 					<input class="form-control controlFormulario" type="text" placeholder="+569" id="exampleFormControlInput2" aria-label="default input example" required>
 					  <div class="invalid-feedback">
 	      				Tu número no puede estar en blanco
-	    		  </div>
+	    		  	  </div>
 				</div>
 				<div>
 					<label for="select" class="form-label">¿Que estás buscando con nosotros? <b class="asteriscoObligatorio">*</b></label>
-					<select class="form-select controlFormulario" aria-label="Default select example" id="select" required>
-		  			<option selected>Selecciona motivo</option>
-		  			<option value="1">Servicio técnico</option>
-					<option value="2">Mantenimiento</option>
-					<option value="3">Instalacion</option>
-					</select>
+					<select class="form-select controlFormulario" id="validationCustom04" required>
+				      <option selected disabled value="">Selecciona un servicio</option>
+				      <option>Instalacion</option>
+				      <option>Mantención</option>
+				      <option>Asesoría</option>
+				      <option>Reparación o servicio técnico</option>
+				      <option>Otro</option>
+				    </select>
 				 <div class="invalid-feedback">
 	      				Debes seleccionar un motivo
 	    		 </div>
 				</div>
 				<div>
-					<label for="exampleFormControlTextarea1" class="form-label">Dudas, comentarios, inquietudes, etc</label>
+					<label for="exampleFormControlTextarea1" class="form-label">Puedes detallar tu solicitud o algún otro comentario</label>
 	  				<textarea class="form-control controlFormulario" id="exampleFormControlTextarea1" rows="3"></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary botonFormulario">Enviar</button>
@@ -94,8 +96,6 @@
 		</div>
 	</center>
 </main>
-
-
 <footer class="footer">
 		<center>
 			<br><p><h5>HackDOS LTDA &copy; 2020 | Antofagasta , Chile</h5></p>

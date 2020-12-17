@@ -10860,3 +10860,9 @@ hr{
   margin-bottom: 10px;
 }
 
+.contenedorQuienesSomos {
+  background: #2980b9;
+  height: 300px;
+  font-size: 80px;
+
+}

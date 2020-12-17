@@ -10761,7 +10761,7 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 500px) {
-  #logoGrande{
+  .contenedorMetro, .grillaMetro, .imagenGrilla{
     width: 100%;
   }
 }
@@ -10782,10 +10782,6 @@ textarea.form-control-lg {
   margin: 20px;
 }
 
-
-.imagenes-servicios {
-  margin: 20px;
-}
 
 
 .boton-primario-servicios {

@@ -33,7 +33,7 @@
     padding: 0;
     display: grid;
     grid-gap: 2px;
-    grid-template-areas: "btn1 btn2 btn2 btn3 btn4" "btn5 btn2 btn2 btn6 btn4" "btn7 btn7 btn8 btn6 btn9" "btn10 btn11 btn8 btn12 btn13" "btn10 btn14 btn15 btn16 btn16";
+    grid-template-areas: "btn1 btn2 btn2 btn3 btn4" "btn5 btn2 btn2 btn6 btn4" "btn7 btn7 btn8 btn6 btn9";
 }
 
 .btn1 {

@@ -10761,7 +10761,7 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 500px) {
-  #imagenLogo{
+  #logoGrande{
     width: 100%;
   }
 }
@@ -10853,3 +10853,14 @@ hr{
 .asteriscoObligatorio {
   color : #E22C2C;
 }
+
+.contenedorDescripcion p{
+  font-size: 25.5px;
+  margin-left: 3  0px;
+  margin-right: 3 0px;
+}
+
+.contenedorDescripcion img {
+  margin-bottom: 10px;
+}
+

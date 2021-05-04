@@ -26,13 +26,10 @@
 		          <a class="nav-link" href="index.html">Inicio</a>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link" href="quienes-somos.html">Quiénes somos</a>
-		        </li>
-		        <li class="nav-item">
 		          <a class="nav-link" href="servicios.html">Servicios</a>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#"><b>Contacto</b></a>
+		          <a class="nav-link active" aria-current="page" href="Contacto.html"><b>Contacto</b></a>
 		        </li>
 		      </ul>
 		    </div>
@@ -43,39 +40,39 @@
 <main>
 	<center>
 		<div class="formularioContacto">
-			<form action="" class="needs-validation">
+			<form action="enviar_formulario.php" method="POST" class="needs-validation">
 				<h1>Contacto</h1>
 				<hr>
 				<div class="mb-3">
 					<label for="exampleFormControlInput2" class="form-label">Nombre <b class="asteriscoObligatorio">*</b></label>
-					<input class="form-control controlFormulario" type="text" placeholder="Nombre" id="exampleFormControlInput2" aria-label="default input example" required>
+					<input class="form-control controlFormulario" type="text" placeholder="Nombre" id="nombre" aria-label="default input example" required>
 					<div class="invalid-feedback">
 	      				Tu nombre no puede estar en blanco
 	    			</div>
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput2" class="form-label">Apellido <b class="asteriscoObligatorio">*</b></label>
-					<input class="form-control controlFormulario" type="text" placeholder="Apellido" id="exampleFormControlInput2" aria-label="default input example" required>
+					<input class="form-control controlFormulario" type="text" placeholder="Apellido" name="apellido" id="apellido" aria-label="default input example" required>
 					<div class="invalid-feedback">
 	      				Tu apellido no puede estar en blanco
 	    			</div>
 				</div>
 				<div class="mb-3">
 				  <label for="exampleFormControlInput1" class="form-label">Correo electrónico <b class="asteriscoObligatorio">*</b></label>
-				  <input type="email" class="form-control controlFormulario" id="exampleFormControlInput1" placeholder="correo@ejemplo.cl" required>
+				  <input type="email" class="form-control controlFormulario" name="correo" id="correo" placeholder="correo@ejemplo.cl" required>
 				  <div class="invalid-feedback">
 	      				Tu correo no puede estar en blanco
 	    		  </div>
 				</div>
 				<div>
 					<label for="exampleFormControlInput2" class="form-label">Número de contacto <b class="asteriscoObligatorio">*</b></label>
-					<input class="form-control controlFormulario" type="text" placeholder="+569" id="exampleFormControlInput2" aria-label="default input example" required>
+					<input class="form-control controlFormulario" type="text" placeholder="+569"  name="numero" id="numero" aria-label="default input example" required>
 					  <div class="invalid-feedback">
 	      				Tu número no puede estar en blanco
 	    		  	  </div>
 				</div>
 				<div>
-					<label for="select" class="form-label">¿Que estás buscando con nosotros? <b class="asteriscoObligatorio">*</b></label>
+					<!--label for="select" class="form-label">¿Que estás buscando con nosotros? <b class="asteriscoObligatorio">*</b></label>
 					<select class="form-select controlFormulario" id="validationCustom04" required>
 				      <option selected disabled value="">Selecciona un servicio</option>
 				      <option>Instalacion</option>
@@ -86,11 +83,11 @@
 				    </select>
 				 <div class="invalid-feedback">
 	      				Debes seleccionar un motivo
-	    		 </div>
+	    		 </div-->
 				</div>
 				<div>
-					<label for="exampleFormControlTextarea1" class="form-label">Puedes detallar tu solicitud o algún otro comentario</label>
-	  				<textarea class="form-control controlFormulario" id="exampleFormControlTextarea1" rows="3"></textarea>
+					<label for="exampleFormControlTextarea1" class="form-label">Detalla tu solicitud o algún otro comentario</label>
+	  				<textarea class="form-control controlFormulario" name="mensaje" id="mensaje" rows="3"></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary botonFormulario">Enviar</button>
 			</form>
@@ -98,13 +95,14 @@
 	</center>
 </main>
 <footer class="footer">
-		<center>
-			<br><p><h5>HackDOS LTDA &copy; 2020 | Antofagasta , Chile</h5></p>
-			<p><i class="fab fa-instagram iconos-footer"></i>@hackdosig</p>
-			<p><i class="fas fa-envelope iconos-footer"></i>contacto@hackdos.cl</p>
-			<p><i class="fas fa-phone-alt iconos-footer"></i>+56977276163</p><br>
-		</center>
+	<center>
+		<br><p><h5>Informática LTDA &copy; 2020 | Antofagasta , Chile</h5></p>
+		<p><i class="fab fa-instagram iconos-footer"></i>@ejemplo</p>
+		<p><i class="fas fa-envelope iconos-footer"></i>contacto@ejemplo.cl</p>
+		<p><i class="fas fa-phone-alt iconos-footer"></i>+56912345678</p><br>
+	</center>
 </footer>
+
 
 
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js"crossorigin="anonymous"></script>
